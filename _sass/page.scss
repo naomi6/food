@@ -21,7 +21,7 @@ body {
 
 /* todo: think of a less stupid name */
 .navigation-wrapper-wrapper {
-	width: 65%;
+	width: 60%;
 	margin:0 auto;
 	border-top: 2px solid $nav-color;
 	border-bottom: 2px solid $nav-color;
@@ -30,6 +30,7 @@ body {
 .navigation-wrapper {
 	@include container;
 	padding-top: 1em;
+	padding-bottom: 1em;
 	font-family: $heading-font;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -59,20 +60,12 @@ body {
 
 /* Top navigation links */
 .top-navigation {
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
-	margin-bottom: 1em;
+	width: 100%;
+	text-align: center;
+
 	float: none;
 	display: block;
-	@media #{$small} {
-		@include grid(12,9);
-		@include prefix(12,0);
-		@include suffix(12,0);
-	}
-	@media #{$x-large} {
-		@include grid(12,8);
-	}
+	
 	ul {
 		margin: 0;
 		padding: 0;
