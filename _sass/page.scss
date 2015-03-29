@@ -12,6 +12,13 @@ body {
    Header
    ========================================================================== */
 
+.header-title {
+	@include container;
+	padding: 2.5em 0 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 /* todo: think of a less stupid name */
 .navigation-wrapper-wrapper {
 	width: 60%;
@@ -22,7 +29,8 @@ body {
 
 .navigation-wrapper {
 	@include container;
-	padding: 1em 0 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	font-family: $heading-font;
 	font-weight: 700;
 	text-transform: uppercase;
