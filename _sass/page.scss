@@ -83,6 +83,7 @@ body {
 		}
 		@media #{$small} {
 			display: inline;
+			margin-left: 25px;
 			margin-right: 25px;
 			white-space: nowrap;
 			border-bottom: 0 solid transparent;
