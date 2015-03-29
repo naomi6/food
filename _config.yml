@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Food that Doesn't Suck
 locale:           en_US
 url:              
-baseurl:          "/food"
+baseurl:          
 
 # Jekyll configuration
 
@@ -26,16 +26,16 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
+  name: Chris & Naomi
+  avatar: chrisandnaomi.jpg
+  bio: ""
   email: 
-  disqus-shortname: 
+  disqus-shortname: chrisandnaomifoodblog
   twitter: #username
   facebook: #username
   google:
     plus: #username
-    analytics: 
+    analytics: UA-61311323-1
     verify: 
     ad-client: 
     ad-slot: 
