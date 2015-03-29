@@ -25,3 +25,10 @@ More often than not we mind up making some form of Oatmeal on the weekends. Not 
 * 1 tsp Thyme
 * 1 tsp Nutmeg
 * Salt & Pepper to Taste
+
+##Instructions
+1. Get ingredients.
+2. Make stuff.
+3. EAT EVERYTHING.
+
+Hope you guys enjoy our recipe!
