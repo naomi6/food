@@ -32,16 +32,19 @@
 
 <div id="main" role="main"> 
   <div id="index">
-    <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
     {% for post in site.posts limit:5 %}    
     <article>
-      {% if post.link %}
-        <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
-      {% else %}
+      {% if post.image %}
+        <div class="leftCol">
+          <img width="150px" src= "{{ site.url }}/images/{{ post.image }}"></img>
+        </div>
+      {% endif %}
+      <div class="rightCol">
         <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
         <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
-      {% endif %}
+      </div>
     </article>
+    <hr/>
     {% endfor %}
   </div><!-- /#index -->
   <div class="article-author-side">

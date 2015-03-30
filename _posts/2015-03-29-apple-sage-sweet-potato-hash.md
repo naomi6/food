@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Apple Sage Sweet Potato Hash"
+image: "sweet-potato.jpg"
 modified:
 excerpt: "Today we decided to make something sweet and savory for breakfast."
 tags: [breakfast, paleo, sweet potato]
