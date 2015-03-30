@@ -278,10 +278,14 @@ $button-size: 1.5rem;
 	}
 	article {
 		.leftCol {
-			display: inline-block; margin-right: 5px; border-radius: 5px;
+			width:200px; display: inline-block; margin-right: 5px; border-radius: 5px;
 		}
 		.rightCol {
 			display: inline-block;
+		}
+		.readMore {
+			/* todo: fill me in please! */
+			@include font-rem(14);
 		}
 		h2 {
 			margin-bottom: 4px;
