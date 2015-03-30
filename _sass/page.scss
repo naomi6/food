@@ -458,6 +458,19 @@ $button-size: 1.5rem;
 	}
 }
 
+/* Simple display for a recipe in the image grid view */
+.recipe-box {
+	@include container;
+	@include grid(12,3);
+	margin-bottom: 20px;
+}
+
+.recipe-pic {
+	background-color: blue;
+	height: 150px;
+	width: 150px;
+}
+
 /* Table of contents */
 .toc {
 	font-size: 95%;
